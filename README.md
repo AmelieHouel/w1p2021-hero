@@ -1,11 +1,11 @@
 # Le site dont vous êtes le héros
 
-URL du site : http://votre-url-ici.com
+URL du site : http://w1p2021-hero-deloumeaux-houel.netlify.com
 
 ### Groupe
 
-- Prénom & Nom
-- Prénom & Nom
+- Inès Deloumeaux
+- Amélie Houël
 
 ## Prologue
 
