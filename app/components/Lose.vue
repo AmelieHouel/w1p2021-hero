@@ -8,7 +8,7 @@
 
 <style lang="scss" scoped>
 .big-header {
-  background-image: url('../../images/Lose.jpg');
+  background-image: url('../images/Lose.jpg');
   background-size: cover;
 }
 </style>
