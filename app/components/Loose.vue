@@ -8,7 +8,7 @@
 
 <style lang="scss" scoped>
 .big-header {
-  background-image: url('../images/Lose.jpg');
+  background-image: url('../../images/Lose.jpg');
   background-size: cover;
 }
 </style>
@@ -24,10 +24,10 @@ export default {
     };
   },
 
-  methods: {
-    handleClick() {
-      countService.increment();
-    }
-  }
+//  methods: {
+//    handleClick() {
+ //     countService.increment();
+ //   }
+//  }
 };
 </script>
