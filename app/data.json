@@ -12,7 +12,7 @@
         },
         {
           "title":"Continuer son chemin",
-          "to":"/lose"
+          "to":"/lose1"
         }
       ]
     },
@@ -36,7 +36,7 @@
       "actions": [
         {
           "title": "Une station service au bord d'une route n'est pas le meilleur endroit pour passer la nuit",
-          "to": "/lose"
+          "to": "/lose3"
         },
         {
           "title":"Oui allons voir ce qu'il y a à l'intérieur",
@@ -56,7 +56,7 @@
         },
         {
           "title":"Je vais t'attendre ici",
-          "to": "/lose"
+          "to": "/lose4"
         }
       ]
     },
@@ -75,7 +75,7 @@
     {
       "id": 6,
       "title":"Le soleil se lève, il est temps de reprendre la route pour sauver l'humanité",
-      "question": "Mais.. John a disparu.. Des bruits étranges s'échappent de cette porte.. L'aventure sans lui s'avère très compliquée",
+      "question": "Mais.. John a disparu.. Des bruits étranges s'échappent de cette porte..",
       "background": "/assets/images/6.jpg",
       "actions": [
         {
@@ -107,7 +107,7 @@
     {
       "id": 8,
       "title":"Vous décidez d'ouvrir cette porte.. John... Malheureusement, ce dernier s'est fait mordre. Vous ne vous laissez pas surprendre et l'abattez.",
-      "question": "Dommage... Il aurez été un bon compagnon. Vous fouillez dans ses vêtements où vous y trouvez les clefs de voiture, vous en profitez pour les récupérer et décidez de ne pas rester plus longtemps ici.",
+      "question": "Dommage... Il aurez été un bon compagnon. Vous fouillez dans ses vêtements où vous y trouvez les clefs de voiture, vous en profitez pour les récupérer et partir aussitôt.",
       "background": "/assets/images/6.jpg",
       "actions": [
         {
@@ -136,7 +136,7 @@
       "actions": [
         {
           "title": "Continuer sur la route",
-          "to": "/lose"
+          "to": "/lose10"
         },
         {
           "title": "Allez visiter cette maison",
@@ -159,12 +159,12 @@
     {
       "id": 12,
       "title":"La voiture tiens un bon moment avant de finalement s’arrêter. Vous n’avez plus d’autres choix que de continuer à pied. Vous êtes tout de même satisfaite de ce gain de temps.",
-      "question": "Que devrais-je faire ?",
+      "question": "Quelle voie est la plus sûre?",
       "background": "/assets/images/10.jpg",
       "actions": [
         {
           "title": "Continuer sur la route",
-          "to": "/lose"
+          "to": "/lose10"
         },
         {
           "title": "Passer ar la forêt",
@@ -204,7 +204,7 @@
       "actions": [
         {
           "title": "Tuer les zombies",
-          "to": "/lose"
+          "to": "/lose15"
         },
         {
           "title": "Couper du bois",
@@ -230,16 +230,15 @@
     },
     {
       "id": 17,
-      "title":"Vous marchez. Marchez. Et marchez. Cela vous semble interminable. Pas une goutte d’eau à l’horizon depuis que vous êtes partis, vous n’en pouvait plus. Vous peinez, mais continuez tout de même.De toute façon,  Vous n’avez pas vraiment le choix. Au bout de quelques temps, vous finissez par entendre ce son... UNE SOURCE D’EAU ! Vous accélerez le pas et vous vous rendez compte que quelqu’un s’y trouve aussi.",
-      "question": "Que devrais-je faire ?",
+      "title":"Vous marchez. Marchez. Et marchez. Cela vous semble interminable. Pas une goutte d’eau à l’horizon depuis que vous êtes partis, vous n’en pouvait plus. Vous peinez, mais continuez tout de même. De toute façon,Vous n’avez pas vraiment le choix. Au bout de quelques temps, vous finissez par entendre ce son... UNE SOURCE D’EAU ! Vous accélerez le pas et soudain vous vous rendez compte que quelqu’un s’y trouve aussi.",
       "background": "/assets/images/17.jpg",
       "actions": [
         {
           "title": "Vous vous précipitez",
-          "to": "/lose"
+          "to": "/lose17"
         },
         {
-          "title": "Attendre que l'individu s'en aille",
+          "title": "Vous attendez que l'individu s'en aille",
           "to": 18
         }
       ]
@@ -252,7 +251,7 @@
       "actions": [
         {
           "title": "Lancer votre arme",
-          "to": "/lose"
+          "to": "/lose18"
         },
         {
           "title": "L'attaquer au corps à corps",
@@ -348,7 +347,7 @@
         },
         {
           "title": "2",
-          "to": "/lose"
+          "to": "/lose25"
         },
         {
           "title": "3",
@@ -368,7 +367,7 @@
         },
         {
           "title": "Ne pas faire confiance en votre instinct",
-          "to": "/lose"
+          "to": "/lose26"
         }
       ]
     },
@@ -384,7 +383,7 @@
         },
         {
           "title": "Tuer les Zombies",
-          "to": "/lose"
+          "to": "/lose27"
         }
       ]
     },

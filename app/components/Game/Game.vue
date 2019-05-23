@@ -36,14 +36,15 @@
   font-size: 24px; 
   top: 50px; 
 
- .title {
-  margin: 10px 50px 0px 50px; 
-  line-height: 130%; 
- }
+  .title {
+    margin: 10px 50px 0px 50px; 
+    line-height: 130%; 
+  }
 
- .question {
-   margin: 10px 50px 0px 50px; 
- }
+  .question {
+    margin: 10px 50px 0px 50px; 
+    line-height: 130%; 
+  }
 
 }
 
@@ -51,22 +52,28 @@
 .buttons {
   display: flex; 
   justify-content: space-around;
-  width: 80vw;
+  width: 70vw;
+  position: absolute; 
+  bottom: 150px; 
 
   .button {
     letter-spacing: 2;
-    text-align: center; 
-    vertical-align: middle; 
+    text-align: center;
     color: black;
-    background: rgba(252, 252, 252, 0.5);
-    width: 400px; 
-    height: 40px; 
+    background: rgba(252, 252, 252, 0.5); 
     border-radius: 55px;
     cursor: pointer;
     border: 10px solid rgba(0, 0, 0, 0.1);
     font-size: 18px; 
+    padding: 30px 60px 30px 60px;
+    opacity: 0.8;
   }
-  
+  .button:hover {
+    opacity: 1;
+    background:#3EB16C; 
+
+
+  }
 }
 
 

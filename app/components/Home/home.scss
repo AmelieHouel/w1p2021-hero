@@ -5,25 +5,43 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
+
 .big-header {
   background-image: url('../../assets/images/Home.jpg');
   background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  font-family: "capture it", sans-serif;
+
+  p {
+    font-size: 40px; 
+    text-align: center; 
+    line-height: 150%;
+    margin-left: 200px; 
+    margin-right: 200px; 
+    border: 10px solid black;
+    background: rgba(0, 0, 0, 0.56);
+
+
+
+
+  }
 
   .button {
+    position : absolute; 
     letter-spacing: 2;
     text-align: center; 
-    vertical-align: middle; 
     color: black;
     background: rgba(252, 252, 252, 0.5);
-    width: 300px; 
-    height: 40px; 
     border-radius: 55px;
-    display: inline-block;
-    border: none;
     cursor: pointer;
-    z-index: 3;
-    border: 10px solid rgba(0, 0, 0, 0.1);
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    bottom: 50px; 
+    padding: 30px 60px 30px 60px;
   }
+
 }
 
 

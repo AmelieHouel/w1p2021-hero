@@ -8,22 +8,35 @@
 .big-header {
   background-image: url("../../assets/images/Characters.jpg");
   background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+
+  .buttons {
+    display: flex;
+    justify-content: space-around; 
+    width: 150vw;
+    margin-top: 45vw;
+    vertical-align: middle;
+
+    .button {
+      letter-spacing: 2;
+      text-align: center; 
+      color: black;
+      background: rgba(252, 252, 252, 0.5);
+      padding: 20px 20px 20px 20px;
+      border-radius: 55px;
+      cursor: pointer;
+      border: 10px solid rgba(0, 0, 0, 0.1);
+      font-size: 18px;
+      opacity: 0.8;
+    }
+    .button:hover {
+
+      background: #3EB16C;
+      opacity: 1; 
+
+    }
+  }
 }
-.buttons {
-  display: flex;
-  justify-content: space-around; 
-  width: 147vw;
-  margin-top: 45vw; 
-}
-.button {
-  letter-spacing: 2;
-  color: black;
-  text-decoration: none;
-  border: 10px solid rgba(0, 0, 0, 0.1);
-  border-radius: 15px 15px 15px 15px;
-  background: rgba(255, 255, 255, 0.75);
-  padding: 15px;
-  display: inline-block;
-  border: none;
-  cursor: pointer;
-}
+
