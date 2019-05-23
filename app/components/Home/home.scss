@@ -6,23 +6,23 @@
 }
 
 .big-header {
-  background-image: url('../../images/home.jpg');
+  background-image: url('../../images/Home.jpg');
   background-size: cover;
 
-  .name {
-    font-family: 'Capture it';
-    font-size: 120px;
-  }
   .button {
     letter-spacing: 2;
+    text-align: center; 
+    vertical-align: middle; 
     color: black;
-    text-decoration: none;
     background: rgba(252, 252, 252, 0.5);
-    padding: 15px;
+    width: 300px; 
+    height: 40px; 
     border-radius: 55px;
     display: inline-block;
     border: none;
     cursor: pointer;
+    z-index: 3;
+    border: 10px solid rgba(0, 0, 0, 0.1);
   }
 }
 

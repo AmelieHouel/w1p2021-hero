@@ -1,7 +1,6 @@
 <template>
   <div class="big-header">
-    <h1 class="name">{{ message }}</h1>
-    <br />
+
     <router-link class="button" to="/character">Commencer</router-link>
   </div>
 </template>
