@@ -1,90 +1,102 @@
 <template>
-  <div class="big-header">
-    
-    <div class="text">
-      <p>{{ message1 }}</p>
-      <p>{{ message2 }}</p>
-      <p>{{ message3 }}</p>
-      <p>{{ message4 }}</p>
-    </div>
-    
-    <div class ="buttons">
-      <router-link class="button" :to="action1">{{ BTN1 }}</router-link>
-      <router-link class="button" :to="action2">{{ BTN2 }}</router-link>
-    </div>
-
-    <img class="img" v-bind:src="background">
+<div class="big-header" v-bind:style="{ backgroundImage: 'url(' + step.background + ')' }">
+  <div class="text">
+    <h1 class="title" v-if="$route.params.id">{{step.title}}</h1>
+    <br/>
+    <h2 class="question" v-if="$route.params.id">{{step.question}}</h2>
   </div>
+    <ul class="buttons">
+      <li v-for="action in step.actions" v-bind:action="action" v-bind:key="action.title">
+        <router-link class="button" :to="action.to.toString()">{{ action.title }}</router-link>
+    </ul>
+ </div> 
 </template>
 
-
 <style lang="scss" scoped>
-@import "Game";
 
-</style>
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
+
+.big-header {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: black; 
+
+.text {
+  position: absolute;  
+  border: 10px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px 15px 0px 0px;
+  background: rgba(255, 255, 255, 0.75);
+  width: 1000px;
+  height: 226px;
+  font-weight: lighter;
+  text-align: justify; 
+  font-size: 24px; 
+  top: 50px; 
+
+ .title {
+  margin: 10px 50px 0px 50px; 
+  line-height: 130%; 
+ }
+
+ .question {
+   margin: 10px 50px 0px 50px; 
+ }
+
+}
+
+}
+.buttons {
+  display: flex; 
+  justify-content: space-around;
+  width: 80vw;
+
+  .button {
+    letter-spacing: 2;
+    text-align: center; 
+    vertical-align: middle; 
+    color: black;
+    background: rgba(252, 252, 252, 0.5);
+    width: 400px; 
+    height: 40px; 
+    border-radius: 55px;
+    cursor: pointer;
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    font-size: 18px; 
+  }
+  
+}
+
+
+</style> 
+
 
 <script>
-import countService from '../../services/countService';
-import json from '../../services/data.js';
+import game from "../../data.json";
 
 export default {
-  computed: {
-      id(){
-        return this.$route.params.id;
-      },
-      action1(){
-        return json[this.id].to1;
-      },
-      action2(){
-        return json[this.id].to2;
-      },
-      BTN1(){
-        return json[this.id].BTN1;
-      },
-      BTN2(){
 
-        return json[this.id].BTN2;
-      },
+  data: function() {
+    return {
+      step: this.getStep(),
+    };
+  },
 
-      message1(){
-        const id = this.$route.params.id;
-        const step = json[id];
-        if (!step)
-          return '';
-        
-        return step.message1;
-      },
-      message2() {
-        const id = this.$route.params.id;
-        const step = json[id];
-        if (!step)
-          return '';
-        
-        return step.message2;
-      },
-      message3() {
-        const id = this.$route.params.id;
-        const step = json[id];
-        if (!step)
-          return '';
-        
-        return step.message3;
-      },
-      message4() {
-        const id = this.$route.params.id;
-        const step = json[id];
-        if (!step)
-          return '';
-        
-        return step.message4;
-      },
-
-    background() {
-      const id = this.$route.params.id;
-      const step = json[id];
-      return step.background;
+  watch: {
+    "$route.params.id"(to, from) {
+      this.step = this.getStep();
     }
+  },
 
+  methods: {
+    getStep() {
+      return game.steps.find(step => {
+        return step.id === parseInt(this.$route.params.id, 10);
+      });
+
+    }
   }
-}
+};
 </script>

@@ -1,12 +1,12 @@
 @font-face {
   font-family:"Capture it";
-  src: url("../../fonts/Capture_it-webfont.woff") format("woff");
+  src: url("../../assets/fonts/Capture_it-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 .big-header {
-  background-image: url('../../images/Home.jpg');
+  background-image: url('../../assets/images/Home.jpg');
   background-size: cover;
 
   .button {

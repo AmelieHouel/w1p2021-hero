@@ -12,7 +12,7 @@
 
 <script>
 import countService from '../../services/countService';
-import game from '../../services/data.js';
+import game from '../../data.json';
 
 export default {
   data() {

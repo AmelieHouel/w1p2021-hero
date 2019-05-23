@@ -14,7 +14,7 @@
 
 <script>
 import countService from '../../services/countService';
-import json from '../../services/data.js';
+import json from '../../data.json';
 
 
 export default {
