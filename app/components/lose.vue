@@ -6,6 +6,14 @@
   </div>
 </template>
 
+<style lang="scss" scoped>
+.big-header {
+  background-image: url('../images/Lose.jpg');
+  background-size: cover;
+}
+</style>
+
+
 <script>
 import countService from '../services/countService';
 

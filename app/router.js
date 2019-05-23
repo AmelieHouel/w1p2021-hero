@@ -4,8 +4,8 @@ import Router from 'vue-router';
 import Home from './components/Home/Home.vue';
 import Character from './components/Character/Character.vue';
 import Game from './components/Game/Game.vue';
-import Lose from './components/Lose.vue';
-import Win from './components/Win.vue';
+import Lose from '../app/components/Lose.vue';
+import Win from '../app/components/Win.vue';
 
 Vue.use(Router);
 
