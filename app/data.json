@@ -447,7 +447,7 @@
       "actions": [
         {
           "title": "Ramener l'antidote",
-          "to": "/win"
+          "to": "/win1"
         }
       ]
     },
@@ -459,7 +459,7 @@
       "actions": [
         {
           "title": "Ramener l'antidote",
-          "to": "/win"
+          "to": "/win2"
         }
       ]
     }

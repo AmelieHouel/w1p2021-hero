@@ -6,8 +6,8 @@
     </div>
     <br />
     <router-link class="button" to="/Character"> Recommencer </router-link>
-    <audio autoplay loop>
-      <source src="../assets/audio/Ambient.mp3" type="audio/mp3">
+    	<audio autoplay loop>
+      <source src="../assets/audio/ApplauseWin.mp3" type="audio/mp3">
     </audio>
   </div>
 </template>
@@ -24,7 +24,7 @@
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
 
 .big-header {
-  background-image: url('../assets/images/Lose26.jpg');
+  background-image: url('../assets/images/Lose1.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -39,7 +39,7 @@
     margin-right: 200px; 
     border: 10px solid black;
     background: rgba(0, 0, 0, 0.56);
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 0px 0px;
 
   }
 
@@ -68,13 +68,12 @@
 
 
 <script>
-import countService from '../services/countService';
 
 export default {
   data() {
     return {
-      message: 'Vous décidez d’y aller franco. Vous courrez tout droit. Vous donnez tout, toute votre force. Vous devez sauver l’humanité...',
-      joke: 'Ce qui aurait pu être possible si vous n’aviez pas rameutez tous les zombies du coin avec le bruit de vos pas. Et oui... Avec autant de batîment, le moindre bruit résonne.'
+      message: 'Vous décidez de faire un détours afin de les évitez... Une bonne idée sur le papier. Malheureusement, vous finissez par tomber nez à nez avec une horde de zombie.',
+      joke: 'Vous êtes fichu.. Serait-ce le karma ?'
     };
   },
 

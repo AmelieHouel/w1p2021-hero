@@ -14,7 +14,8 @@ import Lose18 from './components/Lose18.vue';
 import Lose25 from './components/Lose25.vue';
 import Lose26 from './components/Lose26.vue';
 import Lose27 from './components/Lose27.vue';
-import Win from './components/Win.vue';
+import Win1 from './components/Win1.vue';
+import Win2 from './components/Win2.vue';
 
 Vue.use(Router);
 
@@ -88,9 +89,14 @@ const router = new Router({
       component: Lose27,
     },
     {
-      path:'/win',
-      name:'win',
-      component: Win,
+      path:'/win1',
+      name:'win1',
+      component: Win1,
+    },
+    {
+      path:'/win2',
+      name:'win2',
+      component: Win2,
     },
     {
       path: '*',

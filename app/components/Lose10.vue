@@ -39,7 +39,7 @@
     margin-right: 200px; 
     border: 10px solid black;
     background: rgba(0, 0, 0, 0.56);
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
 
   }
 
