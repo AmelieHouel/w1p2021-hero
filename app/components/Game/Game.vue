@@ -41,7 +41,7 @@
 
   .title {
     margin: 10px 50px 0px 50px; 
-    line-height: 130%; 
+    line-height: 120%; 
   }
 
   .question {

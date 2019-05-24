@@ -22,21 +22,21 @@ URL du site : http://w1p2021-hero-deloumeaux-houel.netlify.com
 | Pages | Une page d'échec est présente | OUI |
 | Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | OUI |
 | Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | OUI |
-| Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | - |
-| Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | - |
+| Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | OUI |
+| Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | NON |
 | État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. **Indiquez ici comment succintement.** | NON |
 | État | Une décision ou un événement aléatoire survenu pendant l'aventure a un impact sur la suite, au moins une fois. **Indiquez ici comment succintement.** | NON |
-| État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Indiquez ici comment succintement.** | NON |
-| État | Au moins un service (classe de type `GameService`) est utilisé | - |
-| Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | - |
-| Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | - |
-| Multimédia | L'expérience présente une vidéo ou plus | - |
-| Multimédia | L'expérience présente un audio ou plus | - |
-| Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | - |
+| État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Indiquez ici comment succintement.** | OUI |
+| État | Au moins un service (classe de type `GameService`) est utilisé | NON |
+| Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | OUI |
+| Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | NON |
+| Multimédia | L'expérience présente une vidéo ou plus | GIF |
+| Multimédia | L'expérience présente un audio ou plus | OUI |
+| Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | NON |
 
+Lien figma https://www.figma.com/file/N6LQ23k4WnbmW19dQocDxLsn/Untitled?node-id=54%3A17
 
-
-
+Les photos sont dans le dossier 'assets/etapesFigma'
 
 
 ## Prologue
