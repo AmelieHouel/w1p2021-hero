@@ -73,8 +73,8 @@
   }
   .button:hover {
     opacity: 1;
-    background:#3EB16C; 
-
+    background: #304040; 
+    color: white; 
 
   }
 }

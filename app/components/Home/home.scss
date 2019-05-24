@@ -22,10 +22,7 @@
     margin-left: 200px; 
     margin-right: 200px; 
     border: 10px solid black;
-    background: rgba(0, 0, 0, 0.56);
-
-
-
+    background: rgba(0, 0, 0, 0.56); 
 
   }
 
@@ -40,6 +37,12 @@
     border: 8px solid rgba(0, 0, 0, 0.1);
     bottom: 50px; 
     padding: 30px 60px 30px 60px;
+    opacity: 0.8
+  }
+  .button:hover {
+    background: #304040; 
+    opacity: 1; 
+    color: white;
   }
 
 }

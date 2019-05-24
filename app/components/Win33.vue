@@ -6,9 +6,10 @@
     </div>
     <br />
     <router-link class="button" to="/Character"> Recommencer </router-link>
-    	<audio autoplay loop>
-      <source src="../assets/audio/ApplauseWin.mp3" type="audio/mp3">
-    </audio>
+      <audio autoplay loop>
+        <source src="../assets/audio/ApplauseWin.mp3" type="audio/mp3">
+      </audio>
+      <img class="gif" src='../assets/gif/Victory33.gif'> 
   </div>
 </template>
 
@@ -24,11 +25,19 @@
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
 
 .big-header {
-  background-image: url('../assets/images/Lose1.jpg');
+  background-image: url('../assets/images/Win33.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
   background-repeat: no-repeat;
+  
+  .gif {
+    position: absolute; 
+    bottom: 0px; 
+    z-index: 1; 
+
+
+  }
 
   .text {
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -39,7 +48,8 @@
     margin-right: 200px; 
     border: 10px solid black;
     background: rgba(0, 0, 0, 0.56);
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
+    z-index: 2; 
 
   }
 
@@ -54,6 +64,7 @@
     cursor: pointer;
     border: 8px solid rgba(0, 0, 0, 0.1);
     bottom: 60px; 
+    left: 100px; 
     padding: 30px 60px 30px 60px;
     opacity: 0.8; 
 
@@ -61,6 +72,8 @@
 
   .button:hover {
       opacity: 1; 
+      color: white; 
+      background: #304040; 
     }
 
 }
@@ -72,8 +85,8 @@
 export default {
   data() {
     return {
-      message: 'Vous décidez de faire un détours afin de les évitez... Une bonne idée sur le papier. Malheureusement, vous finissez par tomber nez à nez avec une horde de zombie.',
-      joke: 'Vous êtes fichu.. Serait-ce le karma ?'
+      message: 'Grâce à vous, la population a su se relever et se reconstruire ! D’autre auraient tué pour réussir.',
+      joke: 'Vous avez su garder votre honneur. Chuck Norris serait fier de vous'
     };
   },
 

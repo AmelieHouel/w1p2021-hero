@@ -443,11 +443,11 @@
       "id": 32,
       "title": "Vous vous saisissez de votre arme et la plante dans le dos de l’individu, le bloquant contre le mur.",
       "question": "De toute façon, le coup a sûrement dû la tuer sur le coup. Vous n’avez pas fait tout ce chemin pour qu’une inconsciente les récupère pour en faire n'importequoi!",
-      "background": "/assets/images/32.jpg",
+      "background": "/assets/images/Win32.jpg",
       "actions": [
         {
           "title": "Ramener l'antidote",
-          "to": "/win1"
+          "to": "/win32"
         }
       ]
     },
@@ -455,11 +455,11 @@
       "id": 33,
       "title": "Vous décidez de lui parler de votre mission : - N’y touchez pas s’il vous plait ! J’en ai besoin pour sauver l’humanité !",
       "question": "Vous lui expliquez l’importance de ces médicaments. Vous savez manier les mots et vous paraissez sympathique. L’individu décide de vous les laisser, et part à la recherche d’autres liquides...",
-      "background": "/assets/images/33.jpg",
+      "background": "/assets/images/Win33.jpg",
       "actions": [
         {
           "title": "Ramener l'antidote",
-          "to": "/win2"
+          "to": "/win33"
         }
       ]
     }

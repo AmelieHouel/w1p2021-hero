@@ -24,7 +24,7 @@
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
 
 .big-header {
-  background-image: url('../assets/images/Lose1.jpg');
+  background-image: url('../assets/images/Win32.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -39,7 +39,7 @@
     margin-right: 200px; 
     border: 10px solid black;
     background: rgba(0, 0, 0, 0.56);
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 0px 0px;
 
   }
 
@@ -61,6 +61,8 @@
 
   .button:hover {
       opacity: 1; 
+      color: white; 
+      background: #304040;
     }
 
 }
@@ -72,8 +74,8 @@
 export default {
   data() {
     return {
-      message: 'Grâce à vous, la population a su se relever et se reconstruire ! D’autre auraient tué pour réussir.',
-      joke: 'Vous avez su garder votre honneur. Chuck Norris serait fier de vous'
+      message: 'Vous décidez de faire un détours afin de les évitez... Une bonne idée sur le papier. Malheureusement, vous finissez par tomber nez à nez avec une horde de zombie.',
+      joke: 'Vous êtes fichu.. Serait-ce le karma ?'
     };
   },
 
