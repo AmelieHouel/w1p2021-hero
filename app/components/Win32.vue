@@ -5,7 +5,7 @@
       <h1>{{ joke }}</h1>
     </div>
     <br />
-    <router-link class="button" to="/Character"> Recommencer </router-link>
+    <div class="button" @click='removeItem()'> Recommencer </div>
     	<audio autoplay loop>
       <source src="../assets/audio/ApplauseWin.mp3" type="audio/mp3">
       </audio>
@@ -84,10 +84,11 @@ export default {
     };
   },
 
-//  methods: {
-//    handleClick() {
- //     countService.increment();
- //   }
-//  }
+methods: {
+      removeItem() {
+      localStorage.removeItem('step');
+      this.$router.push({path:'/'});
+    }
+  }
 };
 </script>
