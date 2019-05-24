@@ -431,11 +431,11 @@
       "actions": [
         {
           "title": "La tuer",
-          "to": 33
+          "to": 32
         },
         {
           "title": "Lui parler",
-          "to": 32
+          "to": 33
         }
       ]
     },
