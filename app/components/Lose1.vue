@@ -75,8 +75,8 @@ import countService from '../services/countService';
 export default {
   data() {
     return {
-      message: 'Vous décidez de faire un détours afin de les évitez... Une bonne idée sur le papier. Malheureusement, vous finissez par tomber nez à nez avec une horde de zombie.',
-      joke: 'Vous êtes fichu.. Serait-ce le karma ?'
+      message: 'Vous décidez de faire un détour afin de les éviter. Une bonne idée sur le papier. Malheureusement, vous finissez par tomber nez à nez avec une horde de zombies.',
+      joke: 'Vous êtes fichu... Serait-ce le karma ?'
     };
   },
  

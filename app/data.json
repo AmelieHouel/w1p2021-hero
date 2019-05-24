@@ -2,7 +2,7 @@
   "steps": [
     {
       "id": 1,
-      "title":"Alors que vous êtes en route pour remplir votre mission, vous remarquez qu'au loin un groupe de Zombies s’attaquent à un humain. Bien qu’armé, seul, ces chances de survie sont minimes face à eux.",
+      "title":"Alors que vous êtes en route pour remplir votre mission, vous remarquez qu'au loin un groupe de zombies s’attaquent à un humain. Bien qu’armé, seul, ces chances de survie sont minimes face à eux.",
       "question": "Le temps presse, que décidez-vous de faire ?",
       "background": "/assets/images/1.jpg",
       "actions": [
@@ -18,7 +18,7 @@
     },
     {
       "id": 2,
-      "title":"Merci pour ton aide, je me dois de t'aider en retour. J'était justement en train de réparer cette voiture avant que les zombies m'attaquent. Surveille mes arrières pendant que je la répare et je t'emmène ou tu le souhaites.",
+      "title":"Merci pour ton aide, je me dois de t'aider en retour. J'étais justement en train de réparer cette voiture avant que les zombies m'attaquent. Surveilles mes arrières pendant que je la répare et je t'emmène où tu le souhaites.",
       "question": "La voiture est prête, on y va ? ",
       "background": "/assets/images/2.jpg",
       "actions": [
@@ -30,7 +30,7 @@
     },
     {
       "id": 3,
-      "title":"L'essence commence à manquer et la nuit tombe. Il faut vite trouver un endroit pour passer la nuit. Tiens une station service, on devrait s'arreter ici pour la nuit ",
+      "title":"L'essence commence à manquer et la nuit tombe. Il faut vite trouver un endroit pour passer la nuit. Tiens une station service, on devrait s'arréter ici pour la nuit.",
       "question": "Qu'en penses-tu ?",
       "background": "/assets/images/3.jpg",
       "actions": [
@@ -47,7 +47,7 @@
     {
       "id": 4,
       "title":"Tu entends ces bruits ? Ça a l'air de venir du fond de la station, je vais voir.",
-      "question": "Tu viens avec moi ou tu restes la ?",
+      "question": "Tu viens avec moi ou tu restes là ?",
       "background": "/assets/images/4.jpg",
       "actions": [
         {
@@ -62,8 +62,8 @@
     },
     {
       "id": 5,
-      "title":"Un Zombie.. CLOWN.. WHAT THE FUCK?",
-      "question": "C'était le seul Zombie ici, la pièce du fond est sécurisée, nous pouvons y rester pour la nuit.",
+      "title":"Un zombie.. CLOWN.. WHAT THE FUCK?",
+      "question": "C'était le seul zombie ici, la pièce du fond est sécurisée, nous pouvons y rester pour la nuit.",
       "background": "/assets/images/5.jpg",
       "actions": [
         {
@@ -74,8 +74,8 @@
     },
     {
       "id": 6,
-      "title":"Le soleil se lève, il est temps de reprendre la route pour sauver l'humanité",
-      "question": "Mais.. John a disparu.. Des bruits étranges s'échappent de cette porte..",
+      "title":"Le soleil se lève, il est temps de reprendre la route pour sauver l'humanité.",
+      "question": "Mais... John a disparu... Des bruits étranges s'échappent de cette porte...",
       "background": "/assets/images/6.jpg",
       "actions": [
         {
@@ -90,8 +90,8 @@
     },
     {
       "id": 7,
-      "title":"Adieu John, nous nous reverons sûrement un jour. Mais j'ai absolument besoin d'avancer. Le temps presse, cette pandémie se poursuit.",
-      "question": "La voiture n'a presque plus d'essence, continuer à pied me fera perdre du temps, mais je serai plus discrète.",
+      "title":"Adieu John, nous nous reverrons sûrement un jour. Mais j'ai absolument besoin d'avancer. Le temps presse, cette pandémie se poursuit.",
+      "question": "La voiture n'a presque plus d'essence, continuer à pied me fera perdre du temps, mais je serais plus discrète.",
       "background": "/assets/images/6.jpg",
       "actions": [
         {
@@ -106,7 +106,7 @@
     },
     {
       "id": 8,
-      "title":"Vous décidez d'ouvrir cette porte.. John... Malheureusement, ce dernier s'est fait mordre. Vous ne vous laissez pas surprendre et l'abattez.",
+      "title":"Vous décidez d'ouvrir cette porte... John... Malheureusement, ce dernier s'est fait mordre. Vous ne vous laissez pas surprendre et l'abattez.",
       "question": "Dommage... Il aurez été un bon compagnon. Vous fouillez dans ses vêtements où vous y trouvez les clefs de voiture, vous en profitez pour les récupérer et partir aussitôt.",
       "background": "/assets/images/6.jpg",
       "actions": [
@@ -118,8 +118,8 @@
     },
     {
       "id": 9,
-      "title":"Vous arrivez dans la voiture mais les clefs en sont pas sur le contact.",
-      "question": "Mince! John les a gardés sur lui..tant pis",
+      "title":"Vous arrivez dans la voiture mais les clefs ne sont pas sur le contact.",
+      "question": "Mince ! John les a gardé sur lui... Tant pis.",
       "background": "/assets/images/6.jpg",
       "actions": [
         {
@@ -130,8 +130,8 @@
     },
     {
       "id": 10,
-      "title":"Encore 50 Km à parcourir, et j'ai absolument besoin d'eau... Un panneau m'indique que je suis à mi-chemin de Palmspring, mais il y a un chemin su le côté. On dirait une allée de maison. ",
-      "question": "Que devrais-je faire ?",
+      "title":"Encore 50 Km à parcourir et vous avez absolument besoin d'eau... Un panneau m'indique que je suis à mi-chemin de ma destination, mais il y a un chemin sur le côté. On dirait une allée de maison. ",
+      "question": "Que devriez-vous faire ?",
       "background": "/assets/images/10.jpg",
       "actions": [
         {
@@ -146,8 +146,8 @@
     },
     {
       "id": 11,
-      "title":"C’est un monde totalement différent qui s’offre à vous. Tout est un calme, d’une apparence si paisible. Il y reste même un cheval et des fleurs. Cela fait si longtemps que vous n’en aviez pas vu. C’est comme un rêve éveillé. L’apocalypse semble s’être arrêter à la limite du jardin.",
-      "question": "Mince! John les a gardés sur lui..tant pis",
+      "title":"C’est un monde totalement différent qui s’offre à vous. Tout est un calme, d’une apparence si paisible. Il y reste même un cheval et des fleurs. Cela fait si longtemps que vous n’en aviez pas vu.",
+      "question": "C’est comme un rêve éveillé. L’apocalypse semble s’être arrêter à la limite du jardin.",
       "background": "/assets/images/11.jpg",
       "actions": [
         {
@@ -158,8 +158,8 @@
     },
     {
       "id": 12,
-      "title":"La voiture tiens un bon moment avant de finalement s’arrêter. Vous n’avez plus d’autres choix que de continuer à pied. Vous êtes tout de même satisfaite de ce gain de temps.",
-      "question": "Quelle voie est la plus sûre?",
+      "title":"La voiture tient un bon moment avant de finalement s’arrêter. Vous n’avez plus d’autres choix que de continuer à pied. Vous êtes tout de même satisfaite de ce gain de temps.",
+      "question": "Quelle voie est la plus sûre ?",
       "background": "/assets/images/10.jpg",
       "actions": [
         {
@@ -167,14 +167,15 @@
           "to": "/lose10"
         },
         {
-          "title": "Passer ar la forêt",
+          "title": "Passer par la forêt",
           "to": 13
         }
       ]
     },
     {
       "id": 13,
-      "title":"Je commence à avoir soif.. il me faut absolument de l'eau.",
+      "title":"Vous commencez à avoir soif... Il vous faut absolument de l'eau.",
+      "question":"Vous parcourez la forêt à la recherche d'une source.",
       "background": "/assets/images/13.jpg",
       "actions": [
         {
@@ -185,8 +186,8 @@
     },
     {
       "id": 14,
-      "title":"Subitement, un fracas grinçant trouble la tranquilité du lieu, puis le grondement d’une voix : Halte-la ! Ou est ce que tu crois aller comme ca ?!",
-      "question": "Je dois récupérer une antidote pour mettre un terme à cette pandémie ! C’est très important, mais j’ai besoin de provisions pour reprendre des forces et tenir...",
+      "title":"Subitement, un fracas grinçant trouble la tranquilité du lieu, puis le grondement d’une voix : '- Halte-la ! Ou est ce que tu crois aller comme ca ?!'",
+      "question": "'Je dois récupérer une antidote pour mettre un terme à cette pandémie ! C’est très important, mais j’ai besoin de provisions pour reprendre des forces et tenir...'",
       "background": "/assets/images/14.jpg",
       "actions": [
         {
@@ -230,7 +231,7 @@
     },
     {
       "id": 17,
-      "title":"Vous marchez. Marchez. Et marchez. Cela vous semble interminable. Pas une goutte d’eau à l’horizon depuis que vous êtes partis, vous n’en pouvait plus. Vous peinez, mais continuez tout de même. De toute façon,Vous n’avez pas vraiment le choix. Au bout de quelques temps, vous finissez par entendre ce son... UNE SOURCE D’EAU ! Vous accélerez le pas et soudain vous vous rendez compte que quelqu’un s’y trouve aussi.",
+      "title":"Vous marchez. Marchez. Et marchez. Cela vous semble interminable. Pas une goutte d’eau à l’horizon depuis que vous êtes partis, vous n’en pouvait plus. Vous peinez, mais continuez tout de même. De toute façon, vous n’avez pas vraiment le choix. Au bout de quelques temps, vous finissez par entendre ce son... UNE SOURCE D’EAU ! Vous accélérez le pas et soudain vous vous rendez compte que quelqu’un s’y trouve aussi.",
       "background": "/assets/images/17.jpg",
       "actions": [
         {
@@ -245,7 +246,7 @@
     },
     {
       "id": 18,
-      "title":"Vous êtes prête à vous jeter à cette source. Mais quelque chose vous chiffonne... Était-ce réellement un survivant ? La déshydratation et la fatigue ne vous permettent pas d’en être sûr. Vous décidez de prendre quelques instant pour observer l’individu, son apparence semble de plus en plus suspecte, sans parler de sa démarche. Vous êtes armée, vous pouvez l’avoir.",
+      "title":"Vous êtes prête à vous jeter à cette source. Mais quelque chose vous chiffonne... Était-ce réellement un survivant ? La déshydratation et la fatigue ne vous permettent pas d’en être sûr. Vous décidez de prendre quelques instants pour observer l’individu, son apparence semble de plus en plus suspecte, sans parler de sa démarche. Vous êtes armée, vous pouvez l’avoir.",
       "question": "Que faire ?",
       "background": "/assets/images/18.jpg",
       "actions": [
@@ -273,8 +274,8 @@
     },
     {
       "id": 20,
-      "title":"Alors que vous vous apprétiez à partir, un bruissement suspect vous fit faire volte-face, prête à planter quiconque se trouvant face à vous. Heureusement pour vous, vous avez de bons réflexes, vous évitez de peu d’assassiner des survivants !",
-      "question": "Non ne nous tuez pas! Nous sommes ici car nous voulons éviter les zombies. On essaye de rejoindre la ville mais c'est compliqué.. Peux tu nous aider ? ",
+      "title":"Alors que vous vous apprétiez à partir, un bruissement suspect vous fait faire volte-face, prête à planter quiconque se trouvant face à vous. Heureusement pour vous, vous avez de bons réflexes, vous évitez de peu d’assassiner des survivants !",
+      "question": "'Non ne nous tuez pas! Nous sommes ici car nous voulons éviter les zombies. On essaye de rejoindre la ville mais c'est compliqué... Peux tu nous aider ?' ",
       "background": "/assets/images/20.jpg",
       "actions": [
         {
@@ -313,8 +314,8 @@
     },
     {
       "id": 23,
-      "title": "Merci pour ton aide, à notre tour de t'aider",
-      "question": "Nous te proposons de l’eau et un vieux cheval qui nous embêtes plus qu’autre chose avec le bruit qu’il fait.. Il s’ennuit tellement qu’il hurle à la mort et attire tous les zombies du coin",
+      "title": "'Merci pour ton aide, à notre tour de t'aider'",
+      "question": "'Nous te proposons de l’eau et un vieux cheval qui nous embête plus qu’autre chose avec le bruit qu’il fait... Il s’ennuit tellement qu’il hurle à la mort et attire tous les zombies du coin.'",
       "background": "/assets/images/23.jpg",
       "actions": [
         {
@@ -326,7 +327,7 @@
     {
       "id": 24,
       "title": "Vous êtes enfin arrivez dans la ville.",
-      "question": "Il y a 3 pharmacies, Malheureusement vous n'en savez pas plus sur la localisation de l'antidote",
+      "question": "Il y a 3 pharmacies, Malheureusement vous n'en savez pas plus sur la localisation de l'antidote.",
       "background": "/assets/images/24.jpg",
       "actions": [
         {
@@ -337,7 +338,7 @@
     },
     {
       "id": 25,
-      "title":"La première se trouve tout droit sur le chemin, cela devrait être rapide. La seconde est plus proche, mais au vu des bruits que vous entendez, les rues qui l'entourent ne sont pas très sure. La troisième vous fait faire un grand détour et vous n’êtes toujours pas sûr de la sureté...",
+      "title":"La première se trouve tout droit sur le chemin, cela devrait être rapide. La seconde est plus proche, mais au vu des bruits que vous entendez, les rues qui l'entourent ne sont pas très sûres. La troisième vous fait faire un grand détour et vous n’êtes toujours pas sûre de survivre.",
       "question": "Où décidez-vous d'aller ?",
       "background": "/assets/images/24.jpg",
       "actions": [
@@ -373,7 +374,7 @@
     },
     {
       "id": 27,
-      "title":"Vous décidez de vous rapprocher des bâtiments afin de longer les murs. Il est hors de question de prendre des risques aussi prêt du but. Rester sur vos gardes est essentiel à ce stade.",
+      "title":"Vous décidez de vous rapprocher des bâtiments afin de longer les murs. Il est hors de question de prendre des risques aussi près du but. Rester sur vos gardes est essentiel à ce stade.",
       "question": "Vous arrivez enfin jusqu’à la pharmacie. Vous prenez quelques instants pour observer ce qu’il s’y passe. De ce que vous voyez, il semble n’y avoir que deux zombies. Que décidez-vous de faire ?",
       "background": "/assets/images/26.jpg",
       "actions": [
@@ -390,7 +391,7 @@
     {
       "id": 28,
       "title": "D’un pas rapide, mais discrêt, vous vous faufilez à l’intérieur. Vous attendez que l’occasion se présente pour contourner chaque zombie. La fouille vous prend un certain temps.",
-      "question": "Malheureusement pour rien. L’antidote ne se trouve pas ici...Vous n’avez d’autres choix de faire demi-tour.",
+      "question": "Malheureusement pour rien. L’antidote ne se trouve pas ici... Vous n’avez d’autres choix de faire demi-tour.",
       "background": "/assets/images/28.jpg",
       "actions": [
         {
@@ -401,7 +402,7 @@
     },
     {
       "id": 29,
-      "title": "Vous décidez de prendre le risque d’aller à la quatrième pharmacie directement, en espérant que l’antidote s’y trouve et surtout pouvoir y arriver saine et sauve.",
+      "title": "Vous décidez de prendre le risque d’aller à la troisième pharmacie directement, en espérant que l’antidote s’y trouve et surtout pouvoir y arriver saine et sauve.",
       "question": "C’est la plus éloignée, certe, mais... Vous ne savez pas, peut-être votre instinct ? Peu importe, mais quelques chose vous dit que ça doit être là-bas.",
       "background": "/assets/images/29.jpg",
       "actions": [
@@ -441,8 +442,8 @@
     },
     {
       "id": 32,
-      "title": "Vous vous saisissez de votre arme et la plante dans le dos de l’individu, le bloquant contre le mur.",
-      "question": "De toute façon, le coup a sûrement dû la tuer sur le coup. Vous n’avez pas fait tout ce chemin pour qu’une inconsciente les récupère pour en faire n'importequoi!",
+      "title": "Vous vous saisissez de votre arme et la plante dans le dos de la survivante, la bloquant contre le mur.",
+      "question": "De toute façon, le coup a sûrement dû la tuer sur le coup. Vous n’avez pas fait tout ce chemin pour qu’une inconsciente les récupère pour en faire n'importe quoi !",
       "background": "/assets/images/32.jpg",
       "actions": [
         {
@@ -453,8 +454,8 @@
     },
     {
       "id": 33,
-      "title": "Vous décidez de lui parler de votre mission : - N’y touchez pas s’il vous plait ! J’en ai besoin pour sauver l’humanité !",
-      "question": "Vous lui expliquez l’importance de ces médicaments. Vous savez manier les mots et vous paraissez sympathique. L’individu décide de vous les laisser, et part à la recherche d’autres liquides...",
+      "title": "Vous décidez de lui parler de votre mission : 'N’y touchez pas s’il vous plait ! J’en ai besoin pour sauver l’humanité !'",
+      "question": "Vous lui expliquez l’importance de ces médicaments. Vous savez manier les mots et vous paraissez sympathique. La survivante décide de vous la laisser et continue ses recherches.",
       "background": "/assets/images/32.jpg",
       "actions": [
         {

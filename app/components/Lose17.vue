@@ -75,7 +75,7 @@ import countService from '../services/countService';
 export default {
   data() {
     return {
-      message: 'La puanteur ambiante aurait pu vous mettre la puce à l’oreille, mais il était trop tard. La main de l’individu s’aggripa férocement à votre bras. ',
+      message: 'La puanteur ambiante aurait pu vous mettre la puce à l’oreille, mais il était trop tard. La main de l’individu s’aggripa férocement à votre bras.',
       joke: 'Devinez quoi ? Ce n’était pas un simple individu...'
     };
   },

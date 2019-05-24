@@ -75,8 +75,8 @@ import countService from '../services/countService';
 export default {
   data() {
     return {
-      message: 'L’essence manqua rapidement. Vous n’avez plus le choix de terminer à pied.',
-      joke: 'La nuit est tombée. Malheuresement pour vous, vous ne tardez pas à vous retrouver encerclés par des zombies...'
+      message: 'L’essence manque rapidement. Vous n’avez plus le choix de terminer à pied.',
+      joke: 'La nuit est tombée. Malheureusement pour vous, vous ne tardez pas à vous retrouver encerclés par des zombies...'
     };
   },
 

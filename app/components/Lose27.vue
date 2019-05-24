@@ -76,7 +76,7 @@ export default {
   data() {
     return {
       message: 'D’un pas rapide, mais discret, vous vous faufilez à l’intérieur. Vous attendez que l’occasion se présente pour attaquer.',
-      joke: 'Malheureusement, vous ne réussissez à n’en tuer qu’un seul et le bruit de son cadavre en a rameuté d’autre.'
+      joke: 'Malheureusement, vous ne réussissez à n’en tuer qu’un seul et le bruit de son cadavre en a rameuté d’autres.'
     };
   },
 

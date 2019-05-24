@@ -76,7 +76,7 @@ export default {
   data() {
     return {
       message: 'Vous décidez d’y aller franco. Vous courrez tout droit. Vous donnez tout, toute votre force. Vous devez sauver l’humanité...',
-      joke: 'Ce qui aurait pu être possible si vous n’aviez pas rameutez tous les zombies du coin avec le bruit de vos pas. Et oui... Avec autant de batîment, le moindre bruit résonne.'
+      joke: 'Ce qui aurait pu être possible si vous n’aviez pas rameuté tous les zombies du coin avec le bruit de vos pas. Et oui... Avec autant de bâtiments, le moindre bruit résonne.'
     };
   },
 

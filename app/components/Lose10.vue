@@ -75,7 +75,7 @@ import countService from '../services/countService';
 export default {
   data() {
     return {
-      message: 'Vous décidez de continuer, préférant emprunter cette route infestée de Zombies.',
+      message: 'Vous décidez de continuer, préférant emprunter cette route infestée de zombies.',
       joke: 'La déshydratation devient de plus en plus préoccupante. Heureusement pour vous, la mort vous a permit d’y remédier !'
     };
   },

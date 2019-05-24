@@ -21,7 +21,7 @@ import game from '../../data.json';
 export default {
   data() {
     return {
-      histoire: "Notre pays subit une terrible pandémie. Votre mission si vous l'acceptez est de récupérer l'antidote qui sauvera l'humanité dans la ville de Palmspring. Attention, cette mission n'est pas sans risque ! ",
+      histoire: "Notre pays subit une terrible pandémie. Votre mission si vous l'acceptez est de récupérer l'antidote qui sauvera l'humanité. Attention, cette mission n'est pas sans risque ! ",
       message: 'SURVIVOR'
     };
   },

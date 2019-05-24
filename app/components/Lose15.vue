@@ -76,7 +76,7 @@ export default {
   data() {
     return {
       message: 'Sérieusement ? Vous avez vraiment choisi de tuer des zombies plutôt que de couper du bois ?',
-      joke: "Entre le courage et la bétise il n'y a qu'un pas", 
+      joke: "Entre le courage et la bétise il n'y a qu'un pas.", 
     };
   },
 

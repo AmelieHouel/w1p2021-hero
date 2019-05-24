@@ -75,7 +75,7 @@ import countService from '../services/countService';
 export default {
   data() {
     return {
-      message: 'Vous prenez le risque de rejoindre cette deuxième pharmacie. Un choix assez sucidaire... Malheureusement nous ne saurons jamais ce qui vous a poussé à y aller en sachant les hordes de zombie qui rodaient autours.',
+      message: 'Vous prenez le risque de rejoindre cette deuxième pharmacie. Un choix assez sucidaire... Malheureusement nous ne saurons jamais ce qui vous a poussé à y aller en sachant les hordes de zombie qui rodaient autour.',
       joke: 'La chance ne fait pas tout.'
     };
   },
