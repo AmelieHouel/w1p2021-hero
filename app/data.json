@@ -148,7 +148,7 @@
       "id": 11,
       "title":"C’est un monde totalement différent qui s’offre à vous. Tout est un calme, d’une apparence si paisible. Il y reste même un cheval et des fleurs. Cela fait si longtemps que vous n’en aviez pas vu. C’est comme un rêve éveillé. L’apocalypse semble s’être arrêter à la limite du jardin.",
       "question": "Mince! John les a gardés sur lui..tant pis",
-      "background": "./assets/images/11.jpg",
+      "background": "/assets/images/11.jpg",
       "actions": [
         {
           "title": "Continuer",
@@ -200,7 +200,7 @@
       "id": 15,
       "title":"On se débrouille très bien sans antidote... On s’en sort même mieux depuis que tout ça est arrivé !",
       "question": "Mais vous avez l'air sincère et sympathique. Nous vous laissons le choix suivant : Tuer les zombies autour de la maison ou couper du bois.",
-      "background": "/assets/images/15.jpg",
+      "background": "/assets/images/14.jpg",
       "actions": [
         {
           "title": "Tuer les zombies",
@@ -220,7 +220,7 @@
       "id": 16,
       "title": "Je suis désolé mais je n’ai pas le temps pour ça ! Bon courage pour la suite.",
       "question": "Vous décidez de continuer par ces clairières, espérant trouver en chemin une source d’eau.",
-      "background": "/assets/images/16.jpg",
+      "background": "/assets/images/14.jpg",
       "actions": [
         {
           "title": "Partir",
@@ -263,7 +263,7 @@
       "id": 19,
       "title": "Vous vous rapprochez discrètement. D’un geste rapide, mais maîtrisé, vous plantez votre arme dans le crâne du zombie.",
       "question": "À présent, Vous voilà libre de vous déshaltérer en toute sécurité.",
-      "background": "/assets/images/19.jpg",
+      "background": "/assets/images/18.jpg",
       "actions": [
         {
           "title": "Continuer",
@@ -291,7 +291,7 @@
       "id": 21,
       "title": "Vous partez enfin pour la ville.",
       "question": "Vous avez certe fait un détour, mais celle-ci ne doit pas être bien loin.",
-      "background": "/assets/images/21.jpg",
+      "background": "/assets/images/18.jpg",
       "actions": [
         {
           "title": "Continuer",
@@ -339,7 +339,7 @@
       "id": 25,
       "title":"La première se trouve tout droit sur le chemin, cela devrait être rapide. La seconde est plus proche, mais au vu des bruits que vous entendez, les rues qui l'entourent ne sont pas très sure. La troisième vous fait faire un grand détour et vous n’êtes toujours pas sûr de la sureté...",
       "question": "Où décidez-vous d'aller ?",
-      "background": "/assets/images/25.jpg",
+      "background": "/assets/images/24.jpg",
       "actions": [
         {
           "title": "1",
@@ -375,7 +375,7 @@
       "id": 27,
       "title":"Vous décidez de vous rapprocher des bâtiments afin de longer les murs. Il est hors de question de prendre des risques aussi prêt du but. Rester sur vos gardes est essentiel à ce stade.",
       "question": "Vous arrivez enfin jusqu’à la pharmacie. Vous prenez quelques instants pour observer ce qu’il s’y passe. De ce que vous voyez, il semble n’y avoir que deux zombies. Que décidez-vous de faire ?",
-      "background": "/assets/images/27.jpg",
+      "background": "/assets/images/26.jpg",
       "actions": [
         {
           "title": "Y aller discrètement",

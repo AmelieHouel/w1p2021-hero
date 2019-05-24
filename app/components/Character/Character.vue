@@ -4,7 +4,11 @@
     <router-link class="button" to="/game/1">Choisir ce personnage</router-link>
     <router-link class="button" to="/game/1">Choisir ce personnage</router-link>
     </div>
+    	<audio autoplay loop>
+      <source src="../../assets/audio/ambience_game.mp3" type="audio/mp3">
+    </audio>
   </div>
+  
 </template>
 
 <style lang="scss" scoped>

@@ -6,6 +6,9 @@
     </div>
     <br />
     <router-link class="button" to="/Character"> Recommencer </router-link>
+    <audio autoplay loop>
+      <source src="../../assets/audio/Ambient.mp3" type="audio/mp3">
+    </audio>
   </div>
 </template>
 
@@ -70,7 +73,7 @@ import countService from '../services/countService';
 export default {
   data() {
     return {
-      message: 'Serieusement ? Vous avez vraiment choisi de tuer des zombies plûtot que de couper du bois ?',
+      message: 'Sérieusement ? Vous avez vraiment choisi de tuer des zombies plutôt que de couper du bois ?',
       joke: "Entre le courage et la bétise il n'y a qu'un pas", 
     };
   },

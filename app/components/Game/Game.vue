@@ -9,6 +9,9 @@
       <li v-for="action in step.actions" v-bind:action="action" v-bind:key="action.title">
         <router-link class="button" :to="action.to.toString()">{{ action.title }}</router-link>
     </ul>
+    <audio autoplay loop>
+      <source src="../../assets/audio/Ambiance.mp3" type="audio/mp3">
+    </audio>
  </div> 
 </template>
 
@@ -26,7 +29,7 @@
 
 .text {
   position: absolute;  
-  border: 10px solid rgba(0, 0, 0, 0.1);
+  border: 6px solid rgba(0, 0, 0, 0.1);
   border-radius: 15px 15px 0px 0px;
   background: rgba(255, 255, 255, 0.75);
   width: 1000px;
@@ -63,7 +66,7 @@
     background: rgba(252, 252, 252, 0.5); 
     border-radius: 55px;
     cursor: pointer;
-    border: 10px solid rgba(0, 0, 0, 0.1);
+    border: 6px solid rgba(0, 0, 0, 0.1);
     font-size: 18px; 
     padding: 30px 60px 30px 60px;
     opacity: 0.8;

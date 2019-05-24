@@ -6,6 +6,9 @@
     </div>
     <br />
     <router-link class="button" to="/Character"> Recommencer </router-link>
+    <audio autoplay loop>
+      <source src="../../assets/audio/Ambient.mp3" type="audio/mp3">
+    </audio>
   </div>
 </template>
 

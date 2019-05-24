@@ -35,3 +35,16 @@ textarea {
   border: none;
   cursor: pointer;
 }
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.30s;
+  transition-property: height, opacity, transform;
+  transition-timing-function: cubic-bezier(0.55, 0, 0.1, 0);
+  overflow: hidden;
+}
+.fade-enter,
+.fade-leave-active {
+  opacity: 0.2;
+}
+
