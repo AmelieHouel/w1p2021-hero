@@ -8,7 +8,8 @@
     <router-link class="button" to="/Character"> Recommencer </router-link>
     	<audio autoplay loop>
       <source src="../assets/audio/ApplauseWin.mp3" type="audio/mp3">
-    </audio>
+      </audio>
+      <img class="gif" src='../assets/gif/Victory32.gif'>
   </div>
 </template>
 
@@ -30,6 +31,12 @@
   overflow: hidden;
   background-repeat: no-repeat;
 
+  .gif {
+    position: absolute; 
+    bottom: 60px; 
+    z-index: 1; 
+  }
+
   .text {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 30px; 
@@ -38,9 +45,7 @@
     margin-left: 200px; 
     margin-right: 200px; 
     border: 10px solid black;
-    background: rgba(0, 0, 0, 0.56);
     border-radius: 15px 15px 0px 0px;
-
   }
 
   .button {
@@ -54,15 +59,15 @@
     cursor: pointer;
     border: 8px solid rgba(0, 0, 0, 0.1);
     bottom: 60px; 
+    left: 100px; 
     padding: 30px 60px 30px 60px;
     opacity: 0.8; 
-
   }
 
   .button:hover {
       opacity: 1; 
       color: white; 
-      background: #304040;
+      background: #304040; 
     }
 
 }

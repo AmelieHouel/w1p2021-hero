@@ -35,8 +35,7 @@
     position: absolute; 
     bottom: 0px; 
     z-index: 1; 
-
-
+    
   }
 
   .text {
