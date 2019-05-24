@@ -74,8 +74,8 @@
 export default {
   data() {
     return {
-      message: 'Vous décidez de faire un détours afin de les évitez... Une bonne idée sur le papier. Malheureusement, vous finissez par tomber nez à nez avec une horde de zombie.',
-      joke: 'Vous êtes fichu.. Serait-ce le karma ?'
+      message: 'Grâce à vous, la population a su se relever et se reconstruire !',
+      joke: 'Le faire sans assassiner gratuitement des innocents... Ca aurait pu être mieux. Mais soit, la génération perdure !'
     };
   },
 

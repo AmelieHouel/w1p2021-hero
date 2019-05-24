@@ -30,6 +30,15 @@ export default {
     handleClick() {
       countService.increment();
     }
-  }
+  },
+
+   mounted() {
+     // restore level session
+     if (localStorage.getItem('step')){
+       this.$router.push({path: `/game${localStorage.getItem("step")}`});
+     }
+
+
+   }
 };
 </script>

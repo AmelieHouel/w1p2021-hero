@@ -97,6 +97,8 @@ export default {
   watch: {
     "$route.params.id"(to, from) {
       this.step = this.getStep();
+      localStorage.setItem('step', this.step.id)
+
     }
   },
 
@@ -107,6 +109,11 @@ export default {
       });
 
     }
+  },
+
+  mounted(){
+    localStorage.setItem('step', this.step.id)
+
   }
 };
 </script>
