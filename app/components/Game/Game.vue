@@ -10,7 +10,7 @@
         <router-link class="button" :to="action.to.toString()">{{ action.title }}</router-link>
     </ul>
     <audio autoplay loop>
-      <source src="../../assets/audio/Ambiance.mp3" type="audio/mp3">
+      <source src="../../assets/audio/AmbientGame.mp3" type="audio/mp3">
     </audio>
  </div> 
 </template>

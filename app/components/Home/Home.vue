@@ -4,7 +4,7 @@
 
     <router-link class="button" to="/character">Commencer</router-link>
     <audio autoplay loop>
-    <source src="../../assets/audio/Ambience_game.mp3" type="audio/mp3">
+    <source src="../../assets/audio/AmbientHome.mp3" type="audio/mp3">
     </audio>
   </div>
 </template>
